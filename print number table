@@ -1,0 +1,10 @@
+i =int(input("enter no"))
+j = int(input("enter 2 no"))
+for i in range(i,j):
+    print(i)
+
+n= int(input("no limit"))
+i= int(input("start no."))
+while i<n:
+    i=i+1
+    print(i)
