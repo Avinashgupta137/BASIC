@@ -1,0 +1,10 @@
+name = input("enter a string : ")
+i=0
+while i< len(name):
+    ch= name[i]
+    if ch.upper() in "AEIOU":
+        print(name,"contains vowel")
+        break
+    i=i+1
+else:
+    print(name,"does not contain any vowel")
