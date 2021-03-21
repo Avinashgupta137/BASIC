@@ -1,0 +1,17 @@
+myList = ["i phone","redmi","realme",'vivo','oppo']
+print("all item are in list")
+for item in myList:
+    print(item)
+
+m=int(input("enter item no"))
+myList = ["i phone","redmi","realme",'vivo','oppo']
+print("all item are in list", myList)
+print(f"item at index {m} is",myList[m])
+
+
+print("enter a range of phone")
+a= int(input(":- "))
+m=int(input(":- "))
+myList = ["i phone","redmi","realme",'vivo','oppo',"jio"]
+print("all item are in list", myList)
+print(f"item at index [2:5] is",myList[2:5])
