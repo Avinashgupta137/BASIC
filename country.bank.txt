@@ -1,0 +1,16 @@
+india = str(input("india is your country "))
+
+if india == "yes" or india == "YES" :
+    print("you are eligable")
+    age = int(input("enter age"))
+    if age >=18 and age <= 60:
+        print(" you are  eligable")
+        sex = str(input("enter  sex "))
+        if sex == "male" :
+            print("bank give male 7.1 intrest ")
+        else :
+            print(" Bank give intrest of female 8.5")
+    else:
+        print("you are not eligable")
+else:
+    print(" you are not eligable")
