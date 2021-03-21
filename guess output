@@ -1,0 +1,8 @@
+def show(p):
+    print("p is ",p)
+    p.append(40)
+    print("now p is ",p)
+a =[10,20,30]
+print("a is ",a)
+show(a)
+print("now a is ", a)
