@@ -1,0 +1,8 @@
+def foo(x):
+    x.append(3)
+    x=[8]
+    return x
+x = [1,5]
+y = foo(x)
+print(x)
+print(y)
