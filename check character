@@ -1,0 +1,10 @@
+ch =input("enter a charcter :")
+ch =ch[0]
+if 65 <=ord(ch)<=90:
+    print( "it is a capital letter")
+elif 97 <=ord(ch)<=122:
+    print("it is small letter")
+elif 48 <=ord(ch)<=57:
+    print("it is digit")
+else:
+    print("it is spical symbol")
