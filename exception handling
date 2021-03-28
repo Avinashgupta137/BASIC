@@ -1,0 +1,12 @@
+# Program to handle multiple errors with one except statement
+try :
+	a = 3
+	if a < 4 :
+
+		# throws ZeroDivisionError for a = 3
+		b = a/(a-3)
+	
+	# throws NameError if a >= 4
+	print "Value of b = ", b
+
+\
