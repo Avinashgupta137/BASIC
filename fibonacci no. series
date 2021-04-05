@@ -1,0 +1,10 @@
+n=22
+a=0
+b=1
+b=a+b
+while(c<=n):
+  print(" "+str(c),end="")
+  c=a+b
+  a=b
+  b=c
+  
