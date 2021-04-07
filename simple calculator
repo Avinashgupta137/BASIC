@@ -1,0 +1,17 @@
+select= int(input("please select operation -\n"\
+      "1.add\n"\
+      "2.sub\n"\
+      "3.multiply\n"\
+      "4. divide\n"))
+number_1 = int(input("enter first no : "))
+number_2 = int(input("enter second number: "))
+if select ==1:
+    print(number_1,"+",number_2,"=",(number_1+number_2))
+elif select ==2:
+    print(number_1,"-",number_2,"=",(number_1-number_2))
+elif select==3:
+    print(number_1,"*",number_2,"=",(number_1*number_2))
+elif select==4:
+    print(number_1,"/",number_2, "=",(number_1 / number_2))
+else :
+    print("out of range")
