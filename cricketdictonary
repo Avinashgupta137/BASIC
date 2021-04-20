@@ -1,0 +1,9 @@
+player = {}
+i=1
+while i<=5:
+    name = input("enter player name: ")
+    runs = int(input("Enter runs: "))
+    player[name]=runs
+    i=i+1
+highest= max(player.values())
+print("High runs: ",highest)
