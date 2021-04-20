@@ -1,0 +1,9 @@
+def add(**n):
+    print(n)
+    sum =0
+    for x in n.values():
+        sum=sum+x
+    print("sum is ", sum)
+
+add(a=10,b=20,c=30)
+add(a=10,b=20,c=30,d=40)
