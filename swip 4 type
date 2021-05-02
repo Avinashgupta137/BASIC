@@ -1,0 +1,33 @@
+# using naive approch
+x = 10
+y= 20
+temp = x
+x=y
+y = temp
+print("value of x :", x)
+print("value of  y :", y)
+
+#ussing comma operator
+x = 10
+y = 20
+x,y=y,x
+print("value of x :", x)
+print("value of  y :", y)
+
+#using XOR
+x= 10
+y= 50
+x =x^y
+y= x^y
+x = x^y
+print("value of x :", x)
+print("value of  y :", y)
+
+#using airthmetic operator
+x= 50
+y = 10
+x= x+y
+y =x-y
+x= x-y
+print("value of x :", x)
+print("value of  y :", y)
